@@ -1,0 +1,14 @@
+name: TDS Assignment Workflow
+
+on:
+  workflow_dispatch: # Allows you to trigger it manually
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2002049@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
